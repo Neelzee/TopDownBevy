@@ -4,13 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = { version = "0.11.2", features = ["dynamic_linking"] }
+bevy = { version = "0.12", features = ["dynamic_linking"] }
 rand = "0.8.5"
-bevy_rapier2d = { version = "0.22.0", features = ["simd-stable", "debug-render-2d"] }
-bevy_ecs_ldtk = "0.8.0"
-bevy_ecs_tilemap = "0.11.0"
-thiserror = "1.0.49"
-bevy-inspector-egui = "0.20.0"
+bevy_rapier2d = { version = "0.25.0", features = ["simd-stable", "debug-render-2d"] }
+bevy_ecs_ldtk = "0.9.0"
+bevy_ecs_tilemap = "0.12.0"
 
 
 [profile.dev]
